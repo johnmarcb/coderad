@@ -96,3 +96,13 @@
 .block-text .btn {
   background-image: linear-gradient;
 }
+
+.bg-contrast {
+  background-color: var(--contrast);
+}
+.service-card {
+  padding: var(--size-30);
+  box-shadow: 0 0 10px rgba(48, 63, 100, 0.15);
+  background: white;
+  border-radius: 8px;
+}
