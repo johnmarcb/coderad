@@ -32,6 +32,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0;
   color: var(--font-color-base);
+  margin: auto;
 }
 
 *,
@@ -101,14 +102,20 @@ img {
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.35);
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
 @media (min-width: 768px) {
   .pricing-table,
   .testimonial-grid {
     max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  footer .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }

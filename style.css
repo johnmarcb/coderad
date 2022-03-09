@@ -1,0 +1,210 @@
+body {
+    font-family: "Times New Roman";
+    padding: 20px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    /* overflow: hidden; */
+    margin: 10px;
+    width: 100%;
+}
+
+
+.logo {
+    margin-right: auto;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #6b6b6b;
+}
+
+.gf {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+}
+
+p {
+    color: #999;
+}
+
+ul {
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    margin: 0 10px;
+    height: 50px;
+}
+
+li {
+    margin: 0 30px;
+}
+
+.active {
+    font-weight:bolder;
+}
+
+.mmenu {
+    visibility: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header>p {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.rooms {
+    display: flex;
+}
+
+.team {
+    text-align: center;
+}
+
+.card>img {
+    width: 100%;
+}
+
+.card {
+    margin-left: 25px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+
+.teammate>img {
+    width: 200px;
+    height: 200px;
+}
+
+.teammate {
+    text-align: left;
+}
+
+.teammate>h2 {
+    color: black;
+}
+.teammate>i {
+    color: gray;
+    margin-left: 0;
+}
+
+footer {
+    color: #777;
+    height: 500px;
+    background-color: #282828;
+    margin: 0;
+}
+
+.ftr-logos {
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+    padding-top: 20px;
+}
+.fab {
+    color: white;
+    height:25px;
+    margin-left: 10px;
+    margin-bottom: 75px;
+}
+
+.contact {
+    margin: 30px 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    text-align: center;
+}
+
+.email>p, .address>p, .number>p {
+    opacity: 0.4;
+}
+
+.copyright {
+    border-top: 1px solid
+    gray;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    opacity: 0.2;
+    position: relative;
+    top: 85px;
+    width: 100%;
+}
+
+.fab {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        margin: auto;
+    }
+
+    .mmenu {
+        visibility: visible;
+    }
+
+    .nav-links {
+        visibility: hidden;
+    }
+    .rooms {
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .mmenu {
+        visibility: visible;
+    }
+
+    .rooms {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        height: 900px;
+    }
+    
+    .copyright {
+        ;
+    }
+
+    .ftr-logos {
+        text-wrap: wrap;
+    }
+
+    .contact {
+        display: inline;
+        flex-direction: ;
+        
+    }
+}
