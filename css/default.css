@@ -25,6 +25,10 @@
   --size-150: 9.375rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -104,7 +108,8 @@ img {
 
 @media (min-width: 768px) {
   .pricing-table,
-  .testimonial-grid {
+  .testimonial-grid,
+  .footer-bottom-wrapper {
     max-width: 720px;
   }
 }
