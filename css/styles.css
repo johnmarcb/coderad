@@ -6,7 +6,7 @@
   z-index: 500;
   transition: ease-in-out 0.3s;
   padding: 0.5rem;
-  background-color: rgba(35, 130, 255, 0.918);
+  /* background-color: rgba(35, 130, 255, 0.918); */
 }
 
 [aria-controls="navbarDropdown"] {
