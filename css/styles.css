@@ -8,6 +8,20 @@
   padding: 0.5rem;
   /* background-color: rgba(35, 130, 255, 0.918); */
 }
+.navbar-toggler {
+  position: absolute;
+  right: var(--size-20);
+  top: var(--size-10);
+  outline: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.navbar-toggler span {
+  color: var(--white);
+  font-size: var(--size-20);
+  cursor: pointer;
+  pointer-events: none;
+}
 
 [aria-controls="navbarDropdown"] {
   display: none;
