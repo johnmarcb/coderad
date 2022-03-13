@@ -16,4 +16,8 @@
     text-align: right;
     box-shadow: 0 0 20px rgba(52, 49, 75, 0.1);
   }
+  [aria-expanded="true"] ~ ul li a {
+    margin-right: var(--size-20);
+    color: var(--font-color-dark);
+  }
 }
