@@ -12,6 +12,10 @@
   background: var(--white);
   box-shadow: 0 0 20px rgba(48, 63, 100, 0.2);
 }
+.navbar.sticky .navbar-toggler span,
+.navbar.sticky .navbar-brand {
+  color: var(--font-color-dark);
+}
 .navbar-toggler {
   position: absolute;
   right: var(--size-20);
